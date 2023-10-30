@@ -1,0 +1,11 @@
+i) Best Practices for Moving Data from a Public API to a Data Lake:
+
+Extracting data from a public API involves several best practices. Begin by choosing the right extraction strategy, considering whether batch extraction, real-time streaming, or change data capture is most suitable. Ensure secure authentication, data validation, and necessary transformations. Design the pipeline for incremental loading if the data is frequently updated. Employ data compression and serialization to optimize storage, and implement robust error handling to manage unexpected issues during extraction.
+
+(ii) Ensuring Security and Reliability of the Data Pipeline:
+
+Securing and ensuring the reliability of your data pipeline is paramount. Implement access controls and encryption for data protection. Strong authentication mechanisms, such as multi-factor authentication, are essential. Regular backups and data recovery mechanisms safeguard against data loss. Monitoring and alerting systems keep you informed of pipeline performance and potential security breaches. Compliance with data protection regulations is critical, and failover and redundancy design ensures continuous operation even in the face of failures.
+
+(iii) Project Implementation and Documentation:
+
+To implement the project effectively, begin by coding the data pipeline, incorporating data extraction, transformation, and loading. Create Power BI reports to access data from Azure Synapse Analytics. Optimize the process by monitoring performance and efficiency. Build a GitHub repository to document the entire project. Capture screenshots and create a short video explaining the workflow. Detailed documentation, including project objectives and architecture, is crucial. Rigorous testing ensures the pipeline's functionality, and regular updates keep the repository current, serving as a valuable portfolio piece and resource.
